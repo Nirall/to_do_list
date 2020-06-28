@@ -5,8 +5,7 @@ import './main.css';
 class App extends React.Component {
     constructor(props) {
         super(props)
-        this.state = {
-            scr: '',
+        this.state = {            
             tasks: props.tasks,
             navbar: props.navbar,
             addTask: false,
